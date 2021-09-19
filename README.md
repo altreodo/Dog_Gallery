@@ -5,4 +5,4 @@ Its a dog gallery where you can explore the images of any breed of dog along wit
 
 
 <p align=center><img src="https://i.ibb.co/k6rR5gh/dog.png" alt="dog" border="0" width=160px></p>
-<p align=center><img src=""https://i.ibb.co/WpvKh6p/dog.png" alt="dog" border="0" width=160px></p>
+<p align=center><img src="https://i.ibb.co/WpvKh6p/dog.png" alt="dog" border="0" width=160px></p>
