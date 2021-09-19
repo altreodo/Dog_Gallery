@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Breed wise</title>
+    <link rel="stylesheet" href="css/doggallery.css">
+</head>
+<body>
+    <div id="main">
+        <h1 style="border: 10px solid blue; background-color: rgba(4, 61, 61, 0.527); color: whitesmoke; font-family:Arial, Helvetica, sans-serif;">Dogs Images Gallery</h1>
+        <div id="in">
+            <select onchange="dom()" id="breed" name="dogs" >
+                <option value="affenpinscher">affenpinscher</option>
+                <option value="bulldog">bulldog</option>
+                <option value="dhole">dhole</option>
+                <option value="germanshepherd">germanshepherd</option>
+                <option value="hound">hound</option>
+                <option value="newfoundland">newfoundland</option>
+                <option value="retriever">retriever</option>
+                <option value="sheepdog">sheepdog</option>
+                <option value="terrier">terrier</option>
+                <option value="pug">pug</option> 
+                <option value="labradoodle">labradoodle</option>
+                <option value="mastiff">mastiff</option>
+                <option value="mix">mix</option>
+
+              </select>
+              <button onclick="show()" type="submit">Get Dog</button>
+        </div>
+        <div id="out">
+        </div>
+    </div>
+    <script src="jquery/jquery-3.6.0.js"></script>
+    <script src="js/doggallery.js"></script>
+</body>
+</html>
