@@ -11,6 +11,8 @@
     <div id="main">
         <h1 style="border: 10px solid blue; background-color: rgba(4, 61, 61, 0.527); color: whitesmoke; font-family:Arial, Helvetica, sans-serif;">Dogs Images Gallery</h1>
         <div id="in">
+            <div id="mkl">
+            <p>Select Dog Breed</p>
             <select onchange="dom()" id="breed" name="dogs" >
                 <option value="affenpinscher">affenpinscher</option>
                 <option value="bulldog">bulldog</option>
@@ -44,7 +46,8 @@
                 <option value="shihtzu">shihtzu</option>
                 <option value="setter">setter</option>
               </select>
-              <button onclick="show()" type="submit">Get Dog</button>
+            </div>
+              <div><button onclick="show()" type="submit">Get Dog</button></div>
         </div>
         <div id="out">
         </div>

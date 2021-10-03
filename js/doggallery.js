@@ -1,13 +1,14 @@
 function om(data){
     if(data.message.length!=0){
-        $('#br').remove();
-        var sp=' <select  id="br" name="dogs" >';
+        $('#kli').remove();
+        var sp='<div id="kli"><p>Dog Sub-breed</p> <select  id="br" name="dogs" >';
             for(let g=0;g<data.message.length;g++){
                 sp+='<option value="'+data.message[g]+'">'+data.message[g]+'</option>';
             }
             $('#in').append(sp);
+            $('#kli').append("</div>")
     }else{
-        $('#br').remove();
+        $('#kli').remove();
     }
 }
 function dom(){
